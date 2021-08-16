@@ -49,7 +49,7 @@
         });
 
         // Callback on fsm context response
-        shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_CONTEXT, (event) => {
+        shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_CONTEXT, async (event) => {
 
           const {
             // extract required context from event content
