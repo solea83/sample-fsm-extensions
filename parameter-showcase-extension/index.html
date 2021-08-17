@@ -69,7 +69,7 @@
           initializeRefreshTokenStrategy(shellSdk, auth);
 
           // Fetch all parameters for the extension
-          const parameters = await fetchParameters(cloudHost, accountId, companyId, extensionDeploymentId);
+          const parameters = await fetchParameters(cloudHost, accountId, companyId, extension.deploymentId);
 
           if (parameters && parameters.length > 0) {
             showInfoText('The following Parameters have been provided:');
