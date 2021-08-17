@@ -66,13 +66,9 @@
 
           // Access_token has a short life stpan and needs to be refreshed before expiring
           // Each extension need to implement its own strategy to refresh it.
-          // initializeRefreshTokenStrategy(shellSdk, auth);
+          initializeRefreshTokenStrategy(shellSdk, auth);
 
-          console.log(`
-          ===========
-          ${JSON.parse(JSON.stringify(event))}
-          ===========
-          `);
+          console.log(JSON.parse(JSON.stringify(event)));
 
           // Fetch all parameters for the extension
           const parameters = await fetchParameters(cloudHost, accountId, companyId, extension.deploymentId);
