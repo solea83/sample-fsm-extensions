@@ -68,6 +68,12 @@
           // Each extension need to implement its own strategy to refresh it.
           initializeRefreshTokenStrategy(shellSdk, auth);
 
+          console.log(`
+          ===========
+          ${JSON.stringify(extension)}
+          ===========
+          `);
+
           // Fetch all parameters for the extension
           const parameters = await fetchParameters(cloudHost, accountId, companyId, extension.deploymentId);
 
