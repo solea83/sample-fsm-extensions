@@ -29,7 +29,7 @@ function fetchParameters(cloudHost, accountId, companyId, extensionDeploymentId)
     'Authorization': `bearer ${sessionStorage.getItem('token')}`,
   }
 
-  const parameterRequestUrl = `https://${cloudHost}/cloud-extension-catalog-service/api/extension-catalog/v1/extension-deployments/${extensionDeploymentId}/deployment-parameters`;
+  const parameterRequestUrl = `https://et.coresystems.net/cloud-extension-catalog-service/api/extension-catalog/v1/extension-deployments/${extensionDeploymentId}/deployment-parameters`;
 
   return new Promise(resolve => {
     fetch(parameterRequestUrl, { headers })
