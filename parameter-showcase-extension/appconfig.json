@@ -1,5 +1,5 @@
 {
-  "name": "Parameter Showcase Extension",
+  "name": "Parameter Showcase",
   "provider": "SAP FSM",
   "description": "Sample extension to showcase the parameter support for SAP FSM extensions.",
   "version": "0.1.0",

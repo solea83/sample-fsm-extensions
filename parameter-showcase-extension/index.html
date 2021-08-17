@@ -66,11 +66,11 @@
 
           // Access_token has a short life stpan and needs to be refreshed before expiring
           // Each extension need to implement its own strategy to refresh it.
-          initializeRefreshTokenStrategy(shellSdk, auth);
+          // initializeRefreshTokenStrategy(shellSdk, auth);
 
           console.log(`
           ===========
-          ${JSON.parse(event)}
+          ${JSON.parse(JSON.stringify(event))}
           ===========
           `);
 
