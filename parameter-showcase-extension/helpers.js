@@ -32,7 +32,7 @@ function fetchParameters(cloudHost, accountId, companyId, extensionDeploymentId)
   const parameterRequestUrl = `https://et.coresystems.net/cloud-extension-catalog-service/api/extension-catalog/v1/extension-deployments/${extensionDeploymentId}/deployment-parameters`;
 
   return new Promise(resolve => {
-    fetch(parameterRequestUrl, { headers })
+    fetch(parameterRequestUrl, { headers, cache: 'no-cache' })
       .then(response => resolve(response.json()));
   });
 }
