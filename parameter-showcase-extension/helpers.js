@@ -27,6 +27,7 @@ function fetchParameters(cloudHost, accountId, companyId, extensionDeploymentId)
     'X-Account-Id': `${accountId}`,
     'X-Company-Id': `${companyId}`,
     'Authorization': `bearer ${sessionStorage.getItem('token')}`,
+    'access-control-request-method': 'GET',
   }
 
   const parameterRequestUrl = `https://et.coresystems.net/cloud-extension-catalog-service/api/extension-catalog/v1/extension-deployments/${extensionDeploymentId}/deployment-parameters`;
