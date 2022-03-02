@@ -8,7 +8,7 @@
     "optimalHeight": "320px",
     "shellNavigation": null,
     "provider": "SAP",
-    "deploymentUrl": "https://scamastral.github.io/sample-fsm-extensions/parameter-showcase-extension/",
+    "deploymentUrl": "https://scamastral.github.io/sample-fsm-extensions/separate-config-url-extension",
     "parametersInformation": "Please follow the instructions to get the needed parameters. The parameters you provide here are used to enable the extension's functionality and will be used by the extension during runtime. Please make sure to follow the guidelines regarding abcde.",
     "parameters": [
       {
