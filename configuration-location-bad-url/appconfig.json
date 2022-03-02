@@ -1,0 +1,88 @@
+{
+    "name": "Parameter Showcase",
+    "description": "Sample extension to showcase the parameter support for SAP FSM extensions.",
+    "version": "0.1.0",
+    "icon": "https://raw.githubusercontent.com/scamastral/sample-fsm-extensions/master/parameter-showcase-extension/parameter-icon.png",
+    "useShellSDK": true,
+    "outletPositions": ["WFM_ACTIVITY_SIDEBAR"],
+    "optimalHeight": "320px",
+    "shellNavigation": null,
+    "provider": "SAP",
+    "deploymentUrl": "http://non-valid-url..in-valid",
+    "parametersInformation": "Please follow the instructions to get the needed parameters. The parameters you provide here are used to enable the extension's functionality and will be used by the extension during runtime. Please make sure to follow the guidelines regarding abcde.",
+    "parameters": [
+      {
+        "name": "apiKey",
+        "required": true,
+        "type": "TEXT",
+        "regexValidation": "^[a-zA-Z-]+$",
+        "labelTranslations": [
+          {
+            "lang": "en",
+            "value": "API Key"
+          },
+          {
+            "lang": "de",
+            "value": "API-Schlüssel"
+          }
+        ],
+        "placeholderTranslations": [
+          {
+            "lang": "en",
+            "value": "API key received in the confirmation mail"
+          },
+          {
+            "lang": "de",
+            "value": "API-Schlüssel, den Sie in der Bestätigungsmail erhalten haben"
+          }
+        ]
+      },
+      {
+        "name": "systemUrl",
+        "required": true,
+        "type": "TEXT",
+        "regexValidation": null,
+        "labelTranslations": [
+          {
+            "lang": "en",
+            "value": "System URL"
+          }
+        ]
+      },
+      {
+        "name": "showPictures",
+        "type": "BOOLEAN",
+        "labelTranslations": [
+          {
+            "lang": "en",
+            "value": "Show pictures"
+          },
+          {
+            "lang": "de",
+            "value": "Bilder anzeigen"
+          }
+        ]
+      },
+      {
+        "name": "enableLogging",
+        "type": "BOOLEAN",
+        "labelTranslations": [
+          {
+            "lang": "en",
+            "value": "Enable logging"
+          },
+          {
+            "lang": "de",
+            "value": "Logging aktivieren"
+          }
+        ]
+      },
+      {
+        "name": "luckyNumber",
+        "required": false,
+        "type": "TEXT",
+        "regexValidation": "^[0-9]+$"
+      }
+    ]
+  }
+  
