@@ -8,6 +8,20 @@
   "optimalHeight": "320px",
   "shellNavigation": null,
   "provider": "SAP",
+  "translations": [
+    {
+      "lang": "en",
+      "parametersInformation": "Please follow the instructions to get the needed parameters. The parameters you provide here are used to enable the extension's functionality and will be used by the extension during runtime. Please make sure to follow the guidelines regarding abcde."
+    },
+    {
+      "lang": "de",
+      "parametersInformation": "Bitte folgen Sie den instruktionen um an die benötigten Parameter zu gelangen. Die Parameter, welche Sie hier zur Verfügung stellen, werden zum Bereitstellen der Extension Funktionalitäten benötigt und während der Laufzeit von der Extension geladen."
+    },
+    {
+      "lang": "fr",
+      "parametersInformation": "Veuillez suivre les instructions pour obtenir les paramètres nécessaires. Les paramètres que vous fournissez ici sont utilisés pour activer la fonctionnalité de l'extension et seront utilisés par l'extension pendant l'exécution."
+    }
+  ],
   "parametersInformation": "Please follow the instructions to get the needed parameters. The parameters you provide here are used to enable the extension's functionality and will be used by the extension during runtime. Please make sure to follow the guidelines regarding abcde.",
   "parameters": [
     {
