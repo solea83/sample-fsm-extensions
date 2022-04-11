@@ -1,0 +1,106 @@
+{
+  "name": "Parameter Showcase",
+  "description": "Sample extension to showcase the parameter support for SAP FSM extensions.",
+  "version": "0.1.0",
+  "icon": "http://raw.githubusercontent.com/scamastral/sample-fsm-extensions/master/parameter-showcase-extension/parameter-icon.png",
+  "useShellSDK": true,
+  "outletPositions": ["WFM_ACTIVITY_SIDEBAR"],
+  "optimalHeight": "320px",
+  "shellNavigation": null,
+  "provider": "SAP",
+  "extensionPolicies": [
+    "allow-downloads",
+    "allow-downloads-without-user-activation",
+    "allow-orientation-lock",
+    "allow-presentation"
+  ],
+  "translations": [
+    {
+      "lang": "en",
+      "parametersInformation": "Please follow <a href=\"https://google.ch\">the instructions</a> to get the needed parameters. The parameters you provide here are used to enable the extension's functionality and will be used by the extension during runtime. Please make sure to follow the guidelines regarding abcde."
+    },
+    {
+      "lang": "de",
+      "parametersInformation": "Bitte folgen Sie den instruktionen um an die benötigten Parameter zu gelangen. Die Parameter, welche Sie hier zur Verfügung stellen, werden zum Bereitstellen der Extension Funktionalitäten benötigt und während der Laufzeit von der Extension geladen."
+    },
+    {
+      "lang": "fr",
+      "parametersInformation": "Veuillez suivre les instructions pour obtenir les paramètres nécessaires. Les paramètres que vous fournissez ici sont utilisés pour activer la fonctionnalité de l'extension et seront utilisés par l'extension pendant l'exécution."
+    }
+  ],
+  "parametersInformation": "Please follow <a href=\"https://google.ch\">the instructions</a> to get the needed parameters. The parameters you provide here are used to enable the extension's functionality and will be used by the extension during runtime. Please make sure to follow the guidelines regarding abcde.",
+  "parameters": [
+    {
+      "name": "apiKey",
+      "required": true,
+      "type": "TEXT",
+      "regexValidation": "^[a-zA-Z-]+$",
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "API Key"
+        },
+        {
+          "lang": "de",
+          "value": "API-Schlüssel"
+        }
+      ],
+      "placeholderTranslations": [
+        {
+          "lang": "en",
+          "value": "API key received in the confirmation mail"
+        },
+        {
+          "lang": "de",
+          "value": "API-Schlüssel, den Sie in der Bestätigungsmail erhalten haben"
+        }
+      ]
+    },
+    {
+      "name": "systemUrl",
+      "required": true,
+      "type": "TEXT",
+      "regexValidation": null,
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "System URL"
+        }
+      ]
+    },
+    {
+      "name": "showPictures",
+      "type": "BOOLEAN",
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "Show pictures"
+        },
+        {
+          "lang": "de",
+          "value": "Bilder anzeigen"
+        }
+      ]
+    },
+    {
+      "name": "enableLogging",
+      "type": "BOOLEAN",
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "Enable logging"
+        },
+        {
+          "lang": "de",
+          "value": "Logging aktivieren"
+        }
+      ]
+    },
+    {
+      "name": "luckyNumber",
+      "required": false,
+      "type": "TEXT",
+      "regexValidation": "^[0-9]+$"
+    }
+  ]
+}
