@@ -51,6 +51,14 @@
         // Callback on fsm context response
         shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_CONTEXT, async (event) => {
 
+          console.log(`
+            =========
+            Shell Event:
+            ${event}
+
+            =========
+          `);
+
           const {
             // extract required context from event content
             cloudHost,
