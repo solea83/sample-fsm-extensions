@@ -74,7 +74,7 @@
           try {
             const parameters = await fetchParameters(cloudHost, accountId, companyId, extension.deploymentId);
           } catch (err) {
-            console.err(`Error: ${err.message}`, err);
+            console.error(`Error: ${err.message}`, err);
           }
 
           if (parameters && parameters.length > 0) {
