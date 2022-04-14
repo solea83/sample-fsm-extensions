@@ -74,8 +74,9 @@
           console.log(JSON.parse(JSON.stringify(event)));
 
           // Fetch all parameters for the extension
+          let parameters;
           try {
-            const parameters = await fetchParameters(cloudHost, accountId, companyId, extension.deploymentId);
+            parameters = await fetchParameters(cloudHost, accountId, companyId, extension.deploymentId);
             console.log('PARAMETERS:');
             console.log(parameters);
           } catch (err) {
