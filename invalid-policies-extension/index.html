@@ -51,6 +51,9 @@
         // Callback on fsm context response
         shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_CONTEXT, async (event) => {
 
+          console.log('REQUIRE_CONTEXT event:')
+          console.log(JSON.parse(event));
+
           const {
             // extract required context from event content
             cloudHost,
@@ -71,7 +74,14 @@
           console.log(JSON.parse(JSON.stringify(event)));
 
           // Fetch all parameters for the extension
-          const parameters = await fetchParameters(cloudHost, accountId, companyId, extension.deploymentId);
+          let parameters;
+          try {
+            parameters = await fetchParameters(cloudHost, accountId, companyId, extension.deploymentId);
+            console.log('PARAMETERS:');
+            console.log(parameters);
+          } catch (err) {
+            console.error(`Error: ${err.message}`, err);
+          }
 
           if (parameters && parameters.length > 0) {
             showInfoText('The following Parameters have been provided:');
