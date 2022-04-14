@@ -35,7 +35,7 @@
       if (!ShellSdk.isInsideShell()) {
         showInfoText('Unable to reach shell eventAPI');
       } else {
-        showInfoText('Loading parameters .-.-.-.');
+        showInfoText('Loading parameters...');
 
         // Initialise ShellSDK to connect with parent shell library
         const shellSdk = ShellSdk.init(parent, '*');
@@ -51,13 +51,8 @@
         // Callback on fsm context response
         shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_CONTEXT, async (event) => {
 
-          console.log(`
-            =========
-            Shell Event:
-            ${event}
-
-            =========
-          `);
+          console.log('REQUIRE_CONTEXT event:')
+          console.log(JSON.parse(event));
 
           const {
             // extract required context from event content
@@ -81,6 +76,8 @@
           // Fetch all parameters for the extension
           try {
             const parameters = await fetchParameters(cloudHost, accountId, companyId, extension.deploymentId);
+            console.log('PARAMETERS:');
+            console.log(parameters);
           } catch (err) {
             console.error(`Error: ${err.message}`, err);
           }

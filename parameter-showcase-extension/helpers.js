@@ -36,7 +36,7 @@ function fetchParameters(cloudHost, accountId, companyId, extensionDeploymentId)
   console.log(`
     ========
     Headers:
-    ${headers}
+    ${JSON.stringify(headers)}
 
     ========
     parameterRequestUrl:
@@ -46,15 +46,11 @@ function fetchParameters(cloudHost, accountId, companyId, extensionDeploymentId)
   `)
   return new Promise(resolve => {
     fetch(parameterRequestUrl, { headers, cache: 'no-cache' })
-      .then(response => {
-        console.log(`
-          =========
-          Response:
-          ${response}
-
-          =========
-        `);
-        resolve(response.json());
+      .then(async (response) => {
+        const result = await response.json();
+        console.log('RESULT FROM FETCH:');
+        console.log(result);
+        resolve(result);
       });
   });
 }
