@@ -30,20 +30,9 @@ function fetchParameters(cloudHost, accountId, companyId, extensionDeploymentId)
     'access-control-request-method': 'GET',
   }
 
-  const parameterRequestUrl = `https://et.coresystems.net/cloud-extension-catalog-service/api/extension-catalog/v1/extension-deployments/${extensionDeploymentId}/deployment-parameters`;
+  const cluster = cloudHost.substr(0, 2);
+  const parameterRequestUrl = `https://${cluster}.coresystems.net/cloud-extension-catalog-service/api/extension-catalog/v1/extension-deployments/${extensionDeploymentId}/deployment-parameters`;
 
-  console.log('fetching parameters...');
-  console.log(`
-    ========
-    Headers:
-    ${JSON.stringify(headers)}
-
-    ========
-    parameterRequestUrl:
-    ${parameterRequestUrl}
-
-    ========
-  `)
   return new Promise(resolve => {
     fetch(parameterRequestUrl, { headers, cache: 'no-cache' })
       .then(async (response) => {
