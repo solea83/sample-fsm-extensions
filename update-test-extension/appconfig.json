@@ -1,7 +1,7 @@
 {
   "name": "Parameter Showcase Test",
   "description": "Sample extension to showcase the parameter support for SAP FSM extensions.",
-  "version": "0.9.0",
+  "version": "0.1.0",
   "icon": "https://raw.githubusercontent.com/solea83/sample-fsm-extensions/master/parameter-showcase-extension/test_icon.png",
   "useShellSDK": true,
   "outletPositions": [],
@@ -24,20 +24,7 @@
   ],
   "parametersInformation": "Please follow <a href=\"https://google.ch\">the instructions</a> to get the needed parameters. The parameters you provide here are used to enable the extension's functionality and will be used by the extension during runtime. Please make sure to follow the guidelines regarding abcde.",
   "parameters": [
-     {
-      "name": "ApiKey",
-      "required": true,
-      "type": "TEXT",
-      "regexValidation": "^[a-zA-Z-]+$",
-      "labelTranslations": [
-        {
-          "lang": "en",
-          "value": "API Key"
-        },
-        {
-          "lang": "de",
-          "value": "API-Schlüssel"
-        }
+     
   ],
       "placeholderTranslations": [
         {
