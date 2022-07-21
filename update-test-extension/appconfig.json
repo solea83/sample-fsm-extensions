@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "icon": "https://raw.githubusercontent.com/solea83/sample-fsm-extensions/master/parameter-showcase-extension/parameter-icon.png",
   "useShellSDK": true,
-  "outletPositions": ["WFM_ACTIVITY_SIDEBAR"],
+  "outletPositions": [],
   "optimalHeight": "320px",
   "shellNavigation": null,
   "provider": "SAP",
