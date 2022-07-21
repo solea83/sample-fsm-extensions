@@ -2,7 +2,7 @@
   "name": "Parameter Showcase Test",
   "description": "Sample extension to showcase the parameter support for SAP FSM extensions.",
   "version": "0.2.0",
-  "icon": "https://raw.githubusercontent.com/solea83/sample-fsm-extensions/master/parameter-showcase-extension/test_icon.png",
+  "icon": "https://raw.githubusercontent.com/solea83/sample-fsm-extensions/master/parameter-showcase-extension/test-icon.png",
   "useShellSDK": true,
   "outletPositions": ["WFM_ACTIVITY_SIDEBAR"],
   "optimalHeight": "320px",
