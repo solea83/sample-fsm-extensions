@@ -8,6 +8,12 @@
   "optimalHeight": "320px",
   "shellNavigation": null,
   "provider": "SAP",
+  "extensionPolicies": [
+    "allow-downloads",
+    "allow-downloads-without-user-activation",
+    "allow-orientation-lock",
+    "allow-presentation"
+  ],
   
   "translations": [
     {
