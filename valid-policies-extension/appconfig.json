@@ -8,7 +8,7 @@
   "optimalHeight": "320px",
   "shellNavigation": null,
   "provider": "SAP",
-  "extensionPolicies": [
+  "extensionAttributes": [
     "allow-downloads",
     "allow-downloads-without-user-activation",
     "allow-orientation-lock",
