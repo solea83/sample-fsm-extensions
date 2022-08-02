@@ -14,14 +14,6 @@
     "allow-orientation-lock",
     "allow-presentation"
   ],
-  "sandboxAttribute": [
-    "allow-forms",
-    "allow-modals",
-    "allow-popups",
-    "allow-popups-to-escape-sandbox",
-    "allow-same-origin",
-    "allow-scripts"
-  ],
   "translations": [
     {
       "lang": "en",
