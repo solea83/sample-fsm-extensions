@@ -61,7 +61,7 @@
           "value": "System URL"
         }
       ]
-      "toolTip": "This is the URL that is used to connect the extension to your account our System"
+      "toolTip": "This is the URL that is used to connect the extension to your account our System",
       "toolTipTranslations": [
         {
           "lang": "en",
