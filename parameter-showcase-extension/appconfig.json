@@ -1,8 +1,8 @@
 {
   "name": "Parameter Showcase",
   "description": "Sample extension to showcase the parameter support for SAP FSM extensions.",
-  "version": "0.3.0",
-  "icon": "https://raw.githubusercontent.com/scamastral/sample-fsm-extensions/master/parameter-showcase-extension/parameter-icon.png",
+  "version": "0.1.0",
+  "icon": "http://raw.githubusercontent.com/scamastral/sample-fsm-extensions/master/parameter-showcase-extension/parameter-icon.png",
   "useShellSDK": true,
   "outletPositions": ["WFM_ACTIVITY_SIDEBAR"],
   "optimalHeight": "320px",
@@ -48,7 +48,7 @@
           "lang": "de",
           "value": "API-Schlüssel, den Sie in der Bestätigungsmail erhalten haben"
         }
-      ],
+      ]
     },
     {
       "name": "systemUrl",
@@ -60,14 +60,7 @@
           "lang": "en",
           "value": "System URL"
         }
-      ],
-      "toolTip": "This is the URL that is used to connect the extension to your account our System",
-      "toolTipTranslations": [
-        {
-          "lang": "en",
-          "value": "This is the URL that is used to connect the extension to your account our System"
-        }
-      ],
+      ]
     },
     {
       "name": "showPictures",
@@ -81,7 +74,7 @@
           "lang": "de",
           "value": "Bilder anzeigen"
         }
-      ],
+      ]
     },
     {
       "name": "enableLogging",
@@ -95,7 +88,7 @@
           "lang": "de",
           "value": "Logging aktivieren"
         }
-      ],
+      ]
     },
     {
       "name": "luckyNumber",
