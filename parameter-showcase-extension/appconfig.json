@@ -48,7 +48,7 @@
           "lang": "de",
           "value": "API-Schlüssel, den Sie in der Bestätigungsmail erhalten haben"
         }
-      ]
+      ],
     },
     {
       "name": "systemUrl",
@@ -67,7 +67,7 @@
           "lang": "en",
           "value": "This is the URL that is used to connect the extension to your account our System"
         }
-      ],
+      ]
     },
     {
       "name": "showPictures",
