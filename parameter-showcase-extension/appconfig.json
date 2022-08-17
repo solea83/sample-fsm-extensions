@@ -66,6 +66,10 @@
         {
           "lang": "en",
           "value": "This is the URL that is used to connect the extension to your account our System"
+        },
+        {
+          "lang": "de",
+          "value": "Dies ist die URL, die verwendet wird, um die Erweiterung mit Ihrem Konto zu verbinden unser System"
         }
       ]
     },
