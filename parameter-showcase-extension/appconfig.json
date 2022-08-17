@@ -85,6 +85,17 @@
           "lang": "de",
           "value": "Bilder anzeigen"
         }
+      ],
+      "toolTip": "This shows the images used in the extension",
+      "toolTipTranslations": [
+        {
+          "lang": "en",
+          "value": "This shows the images used in the extension"
+        },
+        {
+          "lang": "de",
+          "value": "Dies zeigt die in der Erweiterung verwendeten Bilder"
+        }
       ]
     },
     {
