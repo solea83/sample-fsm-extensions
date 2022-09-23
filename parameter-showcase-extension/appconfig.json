@@ -4,7 +4,7 @@
   "version": "0.4.0",
   "icon": "http://raw.githubusercontent.com/scamastral/sample-fsm-extensions/master/parameter-showcase-extension/parameter-icon.png",
   "useShellSDK": true,
-  "outletPositions": ["WFM_ACTIVITY_SIDEBAREN"],
+  "outletPositions": ["WFM_ACTIVITY_SIDEBAR"],
   "optimalHeight": "320px",
   "shellNavigation": null,
   "provider": "SAP",
