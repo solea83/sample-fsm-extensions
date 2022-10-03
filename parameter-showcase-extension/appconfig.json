@@ -62,6 +62,14 @@
         }
       ]
     },
+   {
+      "name": "showPictures",
+      "type": "BOOLEAN",
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "Show pictures"
+        },
    
         {
           "lang": "de",
@@ -83,7 +91,7 @@
         }
       ]
     },
-  {
+    {
       "name": "luckyNumber",
       "required": false,
       "type": "TEXT",
