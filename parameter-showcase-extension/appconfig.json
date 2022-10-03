@@ -9,7 +9,9 @@
   "shellNavigation": null,
   "provider": "SAP",
   "extensionPolicies": [
-    "allow-downloads",
+     "allow-downloads",
+    "non-valid-ext-policy",
+    "another-invalid-policy",
     "allow-downloads-without-user-activation",
     "allow-orientation-lock",
     "allow-presentation"
