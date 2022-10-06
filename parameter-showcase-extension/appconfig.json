@@ -76,6 +76,21 @@
           "value": "Bilder anzeigen"
         }
       ]
+    },
+    {
+      "name": "testbox",
+      "type": "BOOLEAN",
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "Test Box"
+        },
+   
+        {
+          "lang": "de",
+          "value": "Test Box"
+        }
+      ]
     },  
     {
       "name": "enableLogging",
