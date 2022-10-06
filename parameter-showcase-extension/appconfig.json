@@ -63,6 +63,21 @@
       ]
     },
     {
+      "name": "showPictures",
+      "type": "BOOLEAN",
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "Show pictures"
+        },
+   
+        {
+          "lang": "de",
+          "value": "Bilder anzeigen"
+        }
+      ]
+    },  
+    {
       "name": "enableLogging",
       "type": "BOOLEAN",
       "labelTranslations": [
