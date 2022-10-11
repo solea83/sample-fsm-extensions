@@ -23,7 +23,7 @@
     }
   ],
   "parametersInformation": "Please follow <a href=\"https://google.ch\">the instructions</a> to get the needed parameters. The parameters you provide here are used to enable the extension's functionality and will be used by the extension during runtime. Please make sure to follow the guidelines regarding abcde.",
- "parameters": [
+  "parameters": [
     {
       "name": "apiKey",
       "required": true,
@@ -60,7 +60,14 @@
           "lang": "en",
           "value": "System URL"
         }
-      ]
+      ],
+       "toolTip": "This is the URL that is used to connect the extension to your account our System.”
+      "toolTipTranslations": [
+        {
+          "lang": "en",
+          "value": "This is the URL used to connect the extension to your account our System.”
+        }
+      ],
     },
     {
       "name": "showPictures",
