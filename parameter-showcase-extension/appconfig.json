@@ -106,5 +106,11 @@
         }
       ]
     },
+    {
+      "name": "luckyNumber",
+      "required": false,
+      "type": "TEXT",
+      "regexValidation": "^[0-9]+$"
+    }
   ]
 }
