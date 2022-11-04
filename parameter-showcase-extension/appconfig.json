@@ -68,35 +68,7 @@
         }
       ]
     },
-    {
-      "name": "showPictures",
-      "type": "BOOLEAN",
-      "labelTranslations": [
-        {
-          "lang": "en",
-          "value": "Show pictures"
-        },
-        {
-          "lang": "de",
-          "value": "Bilder anzeigen"
-        }
-      ]
-    },
-     {
-      "name": "testbox",
-      "type": "BOOLEAN",
-      "labelTranslations": [
-        {
-          "lang": "en",
-          "value": "Test Box"
-        },
-
-        {
-          "lang": "de",
-          "value": "Test Box"
-        }
-      ]
-    }, 
+  
     {
       "name": "enableLogging",
       "type": "BOOLEAN",
@@ -111,11 +83,5 @@
         }
       ]
     },
-    {
-      "name": "luckyNumber",
-      "required": false,
-      "type": "TEXT",
-      "regexValidation": "^[0-9]+$"
-    }
   ]
 }
