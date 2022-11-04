@@ -1,10 +1,10 @@
 {
   "name": "Demo Extension",
   "description": "Sample extension to showcase the SAP FSM Extensions Update.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "icon": "https://raw.githubusercontent.com/scamastral/sample-fsm-extensions/master/parameter-showcase-extension/parameter-icon.png",
   "useShellSDK": true,
-  "outletPositions": ["WFM_ACTIVITY_SIDEBAR"],
+  "outletPositions": ["WFM_ACTIVITY_SIDEBAR", "PP_DASHBOARD_1", "SHELL_HOME_SCREEN"],
   "optimalHeight": "320px",
   "shellNavigation": null,
   "provider": "SAP",
@@ -65,6 +65,22 @@
         {
           "lang": "en",
           "value": "System URL"
+        }
+      ]
+    },
+    {
+      "name": "demoNewParameter",
+      "required": true,
+      "type": "TEXT",
+      "regexValidation": null,
+      "labelTranslations": [
+	      {
+          "lang": "en",
+          "value": "Show new Parameter”
+        },
+        {
+          "lang": "de",
+          "value": "Neuer Parameter anzeigen"
         }
       ]
     },
