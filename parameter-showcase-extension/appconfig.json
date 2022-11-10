@@ -3,7 +3,7 @@
   "description": "Sample extension to showcase the SAP FSM Extensions Update.",
   "version": "0.2.3",
   "icon": "https://raw.githubusercontent.com/scamastral/sample-fsm-extensions/master/parameter-showcase-extension/parameter-icon.png",
-  "useShellSDK": fals,
+  "useShellSDK": true,
   "outletPositions": ["WFM_ACTIVITY_SIDEBAR", "SHELL_HOME_SCREEN", "PP_DASHBOARD_1", "PP_TECHNICIAN_DETAILS_1"],
   "optimalHeight": "320px",
   "shellNavigation": null,
