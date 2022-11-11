@@ -20,7 +20,7 @@
     "allow-orientation-lock",
     "allow-pointer-lock",
     "allow-top-navigation",
-    "allow-presentation"
+    "allow-presentation-pretty-things"
   ],
   "translations": [
     {
