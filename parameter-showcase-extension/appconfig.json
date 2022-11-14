@@ -1,7 +1,7 @@
 {
   "name": "Demo Extension",
   "description": "Sample extension to showcase the SAP FSM Extensions Update.",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "icon": "https://raw.githubusercontent.com/scamastral/sample-fsm-extensions/master/parameter-showcase-extension/parameter-icon.png",
   "useShellSDK": false,
   "outletPositions": ["WFM_ACTIVITY_SIDEBAR", "SHELL_HOME_SCREEN", "PP_DASHBOARD_1", "PP_TECHNICIAN_DETAILS_1"],
@@ -9,19 +9,8 @@
   "shellNavigation": null,
   "provider": "SAP",
   "extensionAttributes": [
-    "allow-forms",
-    "allow-modals",
     "allow-popups",
-    "allow-popups-to-escape-sandbox",
-    "allow-same-origin",
-    "allow-scripts",
-    "allow-downloads",
-    "allow-downloads-without-user-activation",
-    "allow-orientation-lock",
-    "allow-pointer-lock",
-    "allow-top-navigation",
-    "allow-top-navigation-by-user-activation",
-    "allow-presentation"
+    "allow-downloads"
   ],
   "translations": [
     {
