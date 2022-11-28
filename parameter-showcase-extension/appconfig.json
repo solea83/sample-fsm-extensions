@@ -8,10 +8,6 @@
   "optimalHeight": "320px",
   "shellNavigation": null,
   "provider": "SAP",
-  "extensionAttributes": [
-    "allow-popups",
-    "allow-forms"
-    ],
   "translations": [
     {
       "lang": "en",
