@@ -8,6 +8,10 @@
   "optimalHeight": "320px",
   "shellNavigation": null,
   "provider": "SAP",
+  "extensionAttributes": [
+    "allow-forms",
+    "allow-downloads"
+    ],
   "translations": [
     {
       "lang": "en",
