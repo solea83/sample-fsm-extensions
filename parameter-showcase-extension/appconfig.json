@@ -1,7 +1,7 @@
 {
-  "name": "Demo Test Extension",
+  "name": "Extension Showcase",
   "description": "Sample extension to showcase the SAP FSM Extensions Update.",
-  "version": "3.5.8",
+  "version": "4.0.0",
   "icon": "https://raw.githubusercontent.com/scamastral/sample-fsm-extensions/master/parameter-showcase-extension/parameter-icon.png",
   "useShellSDK": false,
   "outletPositions": ["WFM_ACTIVITY_SIDEBAR", "SHELL_HOME_SCREEN", "PP_DASHBOARD_1", "PP_TECHNICIAN_DETAILS_1"],
