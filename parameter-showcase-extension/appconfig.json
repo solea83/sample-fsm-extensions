@@ -17,18 +17,18 @@
   "translations": [
     {
       "lang": "en",
-      "parametersInformation": "Please follow <a href=\"https://google.ch\">the instructions</a> to get the needed parameters. The parameters you provide here are used to enable the extension's functionality and will be used by the extension during runtime. Please make sure to follow the guidelines regarding abcde."
+      "parametersInformation": "Parameter Information text. Please enter the following parameters that are required to set up the extension."
     },
     {
       "lang": "de",
-      "parametersInformation": "Bitte folgen Sie den instruktionen um an die benötigten Parameter zu gelangen. Die Parameter, welche Sie hier zur Verfügung stellen, werden zum Bereitstellen der Extension Funktionalitäten benötigt und während der Laufzeit von der Extension geladen."
+      "parametersInformation": "Parameter Informationstext. Bitte geben Sie die folgenden Parameter an, die für die Einrichtung der Erweiterung erforderlich sind."
     },
     {
       "lang": "fr",
-      "parametersInformation": "Veuillez suivre les instructions pour obtenir les paramètres nécessaires. Les paramètres que vous fournissez ici sont utilisés pour activer la fonctionnalité de l'extension et seront utilisés par l'extension pendant l'exécution."
+      "parametersInformation": "Texte d'information sur les paramètres. Veuillez saisir les paramètres suivants qui sont nécessaires à la configuration de l'extension."
     }
   ],
-  "parametersInformation": "Please follow <a href=\"https://google.ch\">the instructions</a> to get the needed parameters. The parameters you provide here are used to enable the extension's functionality and will be used by the extension during runtime. Please make sure to follow the guidelines regarding abcde.",
+  "parametersInformation": "Parameter Information text. Please enter the following parameters that are required to set up the extension.",
   "parameters": [
     {
       "name": "apiKey",
